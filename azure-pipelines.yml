@@ -17,5 +17,5 @@ steps:
 
 - script: |
     npm install
-    cd android && ./gradlew assembleDebug
+    fastlane android build
   displayName: 'npm install and build'
